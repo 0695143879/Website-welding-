@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="main.js"></script>
+  <title>Thanda's Steel Welding - Quality Steel Solutions</title>
+  </head>
+  
+<body>
+  <header>
+    <img src="/image/logo.png" alt="Thanda's Steel Welding Logo" style="width: 350px; height: auto; display: block;">
+    <h1>Thanda's Steel Welding</h1>
+    <p>Strength in Every Gate, Precision in Every Weld</p>
+    <div id="status" class="status"></div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#mission">Mission & Values</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#location">Find Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="container">
+    <a href="image">
+      <img src="/image/workshop.jpg" width="100%">
+      </a>
+      <p class="caption">Where Steel Meet Skill, Forging Precision while Crafting Strength</p>
+      </b>
+
+    <h2>About Us</h2>
+    <p>We specialize in strong, galvanized, stylish readymade designs and custom gates fitted to your design, as well as heavy-duty trailers built to last. Clients can bring their own design and our expert team brings them to life. Prices range from <strong>R1,800 to R18,000</strong> depending on design. With more than 25 years of experience, we combine precision craftsmanship and quality materials to deliver reliable solutions or every project.</p>
+  </section>
+
+<section id="portfolio" class="container">
+  <h2>Our Portfolio</h2>
+  <div class="slideshow-container">
+    
+    <!-- Slides (inside .slideshow) -->
+    <div class="slideshow">
+      <img src="/image/gate1.jpg" alt="Gate A" class="active">
+      <img src="/image/gate2.jpg" alt="Gate B">
+      <img src="/image/gate3.jpg" alt="Gate C">
+      <img src="/image/gate4.jpg" alt="Garden Gate">
+      <img src="/image/gate5.jpg" alt="Gate E">
+      <img src="/image/gate6.jpg" alt="Gate F">
+      <img src="/image/gate7.jpg" alt="Gate G">
+      <img src="/image/gate8.jpg" alt="Gate H">
+      <img src="/image/gate9.jpg" alt="Gate I">
+      <img src="/image/gate10.jpg" alt="Gate J">
+      <img src="/image/gate11.jpg" alt="Gate K">
+      <img src="/image/gate12.jpg" alt="Gate L">
+      <img src="/image/gate13.jpg" alt="Gate M">
+      <img src="/image/gate14.jpg" alt="Gate N">
+      <img src="/image/trailer.jpg" alt="Trailer">
+    </div>
+
+    <!-- Prev/Next buttons (inside slideshow-container, not inside slideshow) -->
+    <button class="prev" onclick="plusSlides(-1)">❮</button>
+    <button class="next" onclick="plusSlides(1)">❯</button>
+
+    <!-- Dots -->
+    <div class="dot-container">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+      <span class="dot" onclick="currentSlide(12)"></span>
+      <span class="dot" onclick="currentSlide(13)"></span>
+      <span class="dot" onclick="currentSlide(14)"></span>
+      <span class="dot" onclick="currentSlide(15)"></span>
+    </div>
+  </div>
+</section>
+
+  <!-- MISSION & VALUES SECTION -->
+  <section id="mission" class="mission">
+    <div class="container">
+      <h2>Our Mission & Values</h2>
+      <div class="mission-values">
+        <div class="mission-block">
+          <h3>🎯 Our Mission</h3>
+          <p>To provide durable, affordable, and stylish steel solutions that bring safety, strength, and beauty to every home and business we serve.</p>
+        </div>
+        <div class="values-block">
+          <h3>🤝 Our Core Values</h3>
+          <ul>
+            <li><strong>Quality:</strong> Every weld, every design, built to last.</li>
+            <li><strong>Integrity:</strong> Honest service and fair pricing for our clients.</li>
+            <li><strong>Innovation:</strong> Combining traditional skills with modern designs.</li>
+            <li><strong>Customer Care:</strong> Listening to client needs and delivering beyond expectations.</li>
+            <li><strong>Community:</strong> Supporting local growth and building trust with every project.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial-wrapper">
+          <div class="testimonial active">
+            <h4>~ Mr Ndlovu</h4>
+            <p>"Outstanding work! The gate was perfectly crafted and installed with great attention to detail. Highly recommend Thanda's Steel Welding!"</p>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+          <div class="testimonial">
+            <h4>~ Baba Nkosi</h4>
+            <p>"Professional team with quick service and amazing results! They exceeded our expectations in every way."</p>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+          <div class="testimonial">
+            <h4>~ Mrs H Khumalo</h4>
+            <p>"Strong, reliable steelwork that has lasted for years. Their craftsmanship is truly exceptional."</p>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+          <div class="testimonial">
+            <h4>~ Mr N Xulu</h4>
+            <p>"Excellent service from start to finish. They understood our vision and delivered exactly what we wanted."</p>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+          <div class="testimonial">
+            <h4>~ Mr Nxumalo</h4>
+            <p>"Best steel welding company in the area. Quality work, fair prices, and great customer service."</p>
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+          </div>
+        </div>
+  </section>
+
+<!-- LOCATION SECTION -->
+<section id="location" class="location">
+  <div class="container">
+    <h2>Find Us</h2>
+    <div class="location-content" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+
+      <!-- Workshop Info Box -->
+      <div class="workshop-box" style="flex: 1; min-width: 280px; background: #f9f9f9; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <h3 style="margin-bottom: 10px; color: limegreen; font-size: 40px;">Visit Our Workshop</h3>
+        
+        <!-- OPEN/CLOSED STATUS -->
+        <p id="statusText" style="font-size: 18px; font-weight: bold; margin-bottom: 15px;">
+          <span id="open-status"></span>
+        </p>
+        
+        <p><strong>📍 UMlalazi Reserve, Opposite Eyami Neyakho Bottle Store, Mbizo 1<br>
+        Eshowe 3815, KwaZulu-Natal<br>South Africa</strong></p>
+        </b>
+        <p><strong>📞 Phone: +27 83 281 6599</strong></p>
+        <p><strong> 📧 Email: thandasteelwelding@gmail.com</strong></p>
+
+        <div class="hours" style="margin-top: 15px;">
+          <h3 style="margin-bottom: 5px; font-size: 40px; color: limegreen;"><b>Business Hours:</b></h3>
+          <p><strong>Monday - Friday: 7:00 AM - 4:30 PM</strong></p>
+          <p><strong>Saturdays & Sundays: Closed</strong></p>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed -->
+      <div class="location-map" style="flex: 2; min-width: 280px;">
+  <iframe
+  src="https://www.google.com/maps?q=-28.844343,31.491344&hl=en&z=18&output=embed"
+  width="100%"
+  height="400"
+  style="border:0; border-radius: 15px;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>Fill out the form below and send us a message directly to our email.</p>
+
+    <form id="contactForm" action="mailto:thandasteelwelding@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Write Your Message" required></textarea>
+      <button type="button">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <!-- CHATBOT -->
+  <div id="chatbot">
+    <div id="chatbot-header" onclick="toggleChatbot()"> 💬Chat With Us</div>
+    <div id="chatbot-body" style="display:none;">
+      <div id="chat-messages">
+        <div>👋 Hi! How can we help you today?</div>
+      </div>
+      <div id="chat-options">
+        <button onclick="selectOption('Swing Gate')">🚪 Swing Gate</button>
+        <button onclick="selectOption('Custom Gate')">🛠 Custom Gate</button>
+        <button onclick="selectOption('Trailer')">🚛 Trailer</button>
+        <button onclick="selectOption('Pedestrian Gate')">🚶 Pedestrian Gate</button>
+        <button onclick="selectOption('Other')">❓ Other Inquiry</button>
+      </div>
+      <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type your message here..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 Thanda's Steel Welding. All rights reserved.</p>
+  <p>Crafting Quality Steel Solutions Since 1998</p>
+
+<!-- Social Links -->
+<div class="social-icons">
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/share/1FNzBL59kz/" target="_blank" class="facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/27832816599" target="_blank" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="https://mail.google.com/mail/?view=cm&to=thandasteelwelding@gmail.com&su=Inquiry%20from%20Website"
+     target="_blank" class="email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+</footer>
+
+</body>
+</html>
