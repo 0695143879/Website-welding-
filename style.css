@@ -1,4 +1,4 @@
-/* ========== GLOBAL STYLES ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,9 @@ body {
     linear-gradient(-45deg, rgba(30,60,114,0.3), rgba(42,82,152,0.3), rgba(52,152,219,0.3), rgba(135,206,235,0.3));
   background: url("/image/background-image.jpg") no-repeat center center;
   background-size: cover;
-  animation: bgMove 30s linear infinite;
+  animation: bgMove 70s linear infinite;
+  opacity: 1;
+  zoom: -1;
 }
 
 @keyframes bgMove {
@@ -29,10 +31,10 @@ body {
   padding: 0 20px;
 }
 
-/* ========== HEADER & NAV ========== */
+/* ======= HEADER & NAV ======= */
 header {
   text-align: center;
-  padding: 10px 20px;
+  padding: 1px 20px;
   background: darkslategray;
 }
 
@@ -58,14 +60,14 @@ header p {
 }
   
   .caption {
-  text-align: center;       /* center under the image */
-  font-size: 0.6rem;        /* adjust size */
-  color: darkgreen;         /* change text color */
-  font-weight: 600;         /* make it bold */
-  margin-top: 1px;         /* spacing from image */
+  text-align: center;       
+  font-size: 0.6rem;        
+  color: darkgreen;         
+  font-weight: 600;         
+  margin-top: 1px;         
   margin-bottom: 30px;
-  font-family: 'Arial', sans-serif; /* custom font */
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* optional glow/shadow */
+  font-family: 'Arial', sans-serif; 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
   font-style: italic;
 }
 
@@ -95,7 +97,7 @@ nav ul li a:hover {
   color: #ff0;
 }
 
-/* ========== SECTIONS ========== */
+/* ========= SECTIONS ========= */
 section {
   padding: 40px 0;
   margin: 20px 0;
@@ -121,11 +123,11 @@ section p {
 }
 
 #about {
-  margin-bottom: 15px; /* more space below About Us */
+  margin-bottom: 15px; 
   font-size: 36px;
 }
 
-/* ========== PORTFOLIO SLIDESHOW ========== */
+/* ==== PORTFOLIO SLIDESHOW === */
 .slideshow-container {
   position: relative;
   max-width: 800px;
@@ -166,7 +168,7 @@ section p {
   padding: 8px 12px;
   cursor: pointer;
   font-size: 18px;
-  z-index: 10;  /* must be higher than images */
+  z-index: 10;  
   transform: none;
 }
 
@@ -196,7 +198,7 @@ section p {
 .dot.active, .dot:hover {
   background-color: #3498db;
 }
-/* ========== MISSION & VALUES ========== */
+/* ===== MISSION & VALUES ===== */
 .mission {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -242,7 +244,7 @@ section p {
   font-weight: bold;
 }
 
-/* ========== TESTIMONIALS ========== */
+/* ======= TESTIMONIALS ======= */
 .testimonials {
   background: blanchedalmond;
 }
@@ -292,11 +294,11 @@ section p {
   font-size: 1.2rem;
 }
 
-/* ========== LOCATION & WORKSHOP ========== */
+/* ==== LOCATION & WORKSHOP === */
 .location-content {
   display: flex;
-  flex-direction: column;  /* stack workshop above map */
-  gap: 30px;               /* space between workshop box and map */
+  flex-direction: column;  
+  gap: 30px;               
   margin-bottom: 0;
 }
 
@@ -305,7 +307,7 @@ section p {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  max-width: 100%;       /* full width */
+  max-width: 100%;       
   box-sizing: border-box;
   z-index: 10;
 }
@@ -337,7 +339,7 @@ section p {
   border-radius: 15px;
 }
 
-/* Responsive adjustments */
+/**** Responsive adjustments ****/
 @media (max-width: 768px) {
   .location-map iframe {
     height: 300px;
@@ -355,7 +357,7 @@ section p {
   }
 }
 
-/* ========== OPEN/CLOSED STATUS ========== */
+/* ==== OPEN/CLOSED STATUS ==== */
 #open-status.open {
   color: lime;
   text-shadow: 0 0 8px lime, 0 0 12px lime, 0 0 16px lime;
@@ -378,7 +380,7 @@ section p {
   to { text-shadow: 0 0 20px crimson; }
 }
 
-/* ========== CONTACT FORM ========== */
+/* ======= CONTACT FORM ======= */
 .contact {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -417,7 +419,7 @@ section p {
   background: #e67e22;
 }
 
-/* ========== CHATBOT BUBBLE ========== */
+/* ====== CHATBOT BUBBLE ====== */
 #chatbot {
   position: fixed;
   bottom: 700px; /* distance from bottom */
@@ -451,9 +453,9 @@ section p {
 
 /* Chat body */
 #chatbot-body {
-  display: none;           /* hidden initially */
-  position: fixed;         /* fixed so it stays above all content */
-  bottom: 280px;           /* position above bubble */
+  display: none;           
+  position: fixed;         
+  bottom: 280px;           
   right: 20px;
   width: 350px;
   height: 50vh;
